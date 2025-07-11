@@ -17,6 +17,7 @@
       <li><a href="#"></a>Projects</li>
       <li><a href="#"></a>Contact</li>
     </ul>
+    <img src="img/menu.svg" alt="" class="menu">
   </nav>
   <div class="container">
     <section id="header">
@@ -166,5 +167,13 @@
        </div>
     </div>
   </div>
+  <script>
+    const menuIcon = document.querySelector('.menu')
+    const navList = document.querySelector('.nav-list')
+
+    menuIcon.addEventListener('click', () => {
+      navList.classList.toggle('active')
+    })
+  </script>
 </body>
 </html>
