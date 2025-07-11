@@ -220,3 +220,39 @@ nav {
 .project .buttons-wrapper {
   justify-content: space-between;
 }
+.contact-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-links {
+  max-width: 300px;
+}
+.social-links p {
+  font-weight: bold;
+}
+.form-wrapper {
+  max-width: 500px;
+  
+}
+.form-wrapper input {
+  width: 100%;
+  margin-top: 15px;
+  background: var(--dark-mode-S200);
+  padding: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: var(--white);
+}
+.form-wrapper textarea {
+  width: 100%;
+  margin-top: 15px;
+  background: var(--dark-mode-S200);
+  padding: 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: var(--white);
+  margin-top: 20px;
+}
