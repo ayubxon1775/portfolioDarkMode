@@ -51,7 +51,9 @@ body {
   color: var(--white);
   font-family: 'Poppins', sans-serif;
 }
-
+section {
+  margin: 120px auto;
+}
 nav {
   background: var(--dark-mode-S1000);
   display: flex;
@@ -166,4 +168,35 @@ nav {
 }
 .skill-4 {
   background: var(--gradient-4);
+}
+
+
+.services-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+.service {
+  height: 300px;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  gap: 10px;
+}
+.service img {
+  width: 50px;
+}
+.service:hover {
+  background: var(--gradient-1);
+  border: none;
+  cursor: pointer;
+}
+.service:hover .title {
+  color: var(--white);
 }
