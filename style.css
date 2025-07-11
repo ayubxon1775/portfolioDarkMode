@@ -87,7 +87,7 @@ nav {
 .header-content h1 {
   font-size: 62px;
 }
-.button-wrapper {
+.buttons-wrapper {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -199,4 +199,24 @@ nav {
 }
 .service:hover .title {
   color: var(--white);
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 50px;
+  gap: 30px;
+}
+.project {
+  background: var(--dark-mode-S200);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.project img {
+  min-width: 100%;
+}
+.project .buttons-wrapper {
+  justify-content: space-between;
 }
